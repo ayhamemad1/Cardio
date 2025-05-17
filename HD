@@ -1,4 +1,1 @@
-# in your local repo
-git add s.py
-git commit -m "Add Streamlit entry point"
-git push origin main        # or origin <your-branch>
+
