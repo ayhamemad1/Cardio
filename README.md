@@ -1,100 +1,74 @@
-\# 🫀 CardioRisk V1
+🫀 CardioRisk V1
 
+CardioRisk V1 is a machine learning project for early heart disease risk prediction.
+It combines two heart disease datasets (UCI and Kaggle), applies advanced preprocessing techniques, and evaluates eight ML models to determine the best-performing one.
 
+---
 
-\*\*CardioRisk V1\*\* is a machine learning project for early heart disease risk prediction. This project combines two heart disease datasets from UCI and Kaggle, applies advanced preprocessing techniques, and trains eight different ML models to evaluate the best performing one.
+1. Project Goals
 
+   * Predict heart disease risk using clinical data.
+   * Identify the best-performing ML model using cross-validation and evaluation metrics.
+   * Offer a clean, documented pipeline for replicability and extension.
+   * Provide a prototype UI for healthcare practitioners.
 
+2. Datasets Used
 
-\## 🧠 Project Goals
+   * UCI Cleveland Heart Disease Dataset
+   * Kaggle Heart Disease Dataset
+   * Combined and cleaned to form a unified dataset with rich patient features.
 
-\- Predict heart disease risk using clinical data.
+3. Features
 
-\- Identify the best-performing ML model using cross-validation and performance metrics.
+   * Missing value imputation using Random Forest Imputer.
+   * Data normalization using StandardScaler and QuantileTransformer.
+   * Eight classification models trained and compared:
 
-\- Offer a clean, documented process for replicability and extension.
+     * Logistic Regression
+     * K-Nearest Neighbors (KNN)
+     * Support Vector Machine (SVM)
+     * Decision Tree Classifier
+     * Random Forest Classifier
+     * Gradient Boosting Classifier
+     * AdaBoost Classifier
+     * XGBoost Classifier
 
-\- Provide a prototype UI for healthcare practitioners.
+4. Best Performing Model
 
+   * Model: XGBoost Classifier
+   * Accuracy: 92%
+   * F1 Score: 96%
+   * ROC-AUC: 98%
 
+5. **Tech Stack**
 
-\## 📊 Datasets
+   * Python 3.x
+   * scikit-learn
+   * xgboost
+   * pandas, matplotlib, seaborn, plotly
+   * Streamlit (for UI prototype)
 
-\- \*\*UCI Cleveland Heart Disease Dataset\*\*
+6. **Files Included**
 
-\- \*\*Kaggle Heart Disease Dataset\*\*
+   * `cardiorisk_v1.py` – Main script with full preprocessing, modeling, and evaluation
+   * `CardioRisk-ProjectReport.pdf` – Full academic report and documentation
+   * `requirements.txt` – Python dependencies
+   * `.gitignore` – Standard Python ignore rules
 
-\- Combined and cleaned to form a unified dataset with rich patient features.
+7. **How to Run**
 
+   * Install dependencies:
+     pip install -r requirements.txt
+   * Run the script:
+     python cardiorisk\_v1.py
 
+8. **Authors & Credits**
 
-\## ⚙️ Features
+   * Ayham Emad Mohammad Ali
+   * Omar Hussein Jankhot
+   * Supervised by: Dr. Mohammad Alhawarat
+   * Middle East University — Graduation Project 2025
 
-\- Missing value imputation using \*\*Random Forest Imputer\*\*
+---
 
-\- Data normalization using \*\*StandardScaler\*\* and \*\*QuantileTransformer\*\*
-
-\- 8 classification models trained and evaluated:
-
-&nbsp; - Logistic Regression
-
-&nbsp; - KNN
-
-&nbsp; - SVM
-
-&nbsp; - Decision Tree
-
-&nbsp; - Random Forest
-
-&nbsp; - Gradient Boosting
-
-&nbsp; - AdaBoost
-
-&nbsp; - XGBoost
-
-
-
-\## 🏆 Best Performing Model
-
-\- \*\*XGBoost\*\*
-
-\- Accuracy: 92%
-
-\- F1 Score: 96%
-
-\- ROC-AUC: 98%
-
-
-
-\## 🛠 Tech Stack
-
-\- Python
-
-\- scikit-learn
-
-\- xgboost
-
-\- pandas, matplotlib, seaborn
-
-\- Streamlit (UI Prototype)
-
-
-
-\## 📁 Files Included
-
-| File | Description |
-
-|------|-------------|
-
-| `cardiorisk\_v1.py` | Main script with full preprocessing, modeling, and evaluation |
-
-| `CardioRisk-ProjectReport.pdf` | Full academic report |
-
-| `requirements.txt` | Python dependencies |
-
-| `.gitignore` | Standard Python ignores |
-
-
-
-
-
+Would you like me to prepare a short description or project summary for your LinkedIn or CV too?
