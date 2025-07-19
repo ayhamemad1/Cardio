@@ -71,4 +71,4 @@ It combines two heart disease datasets (UCI and Kaggle), applies advanced prepro
 
 ---
 
-Would you like me to prepare a short description or project summary for your LinkedIn or CV too?
+![Preview](./your-image-name.png)
