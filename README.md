@@ -70,4 +70,3 @@ It combines two heart disease datasets (UCI and Kaggle), applies advanced prepro
    * Middle East University — Graduation Project 2025
 
 ---
-![CardioRisk Screenshot](./cardiorisk_preview.png)
