@@ -71,4 +71,3 @@ It combines two heart disease datasets (UCI and Kaggle), applies advanced prepro
 
 ---
 
-![Preview](./image.png)
